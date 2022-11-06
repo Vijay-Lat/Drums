@@ -62,7 +62,7 @@ document.addEventListener('keydown', function(event) {
       fileName = "sounds/crash.mp3"
       break;
 
-    default:console.log(event.key);
+    default:return false;
 
   }
   const audio = new Audio(fileName)
